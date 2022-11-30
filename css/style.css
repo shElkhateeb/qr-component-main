@@ -12,6 +12,7 @@
 body {
     background-color: var(--color-light-gray);
     font-family: "Outfit", sans-serif;
+    font-size: 15px;
 }
 
 .attribution {
@@ -20,4 +21,44 @@ body {
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
+}
+
+.card {
+    width: 280px;
+    height: 450px;
+    padding: 15px;
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+.card .caption {
+    width: 220px;
+    text-align: center;
+}
+
+.card .title {
+    color: var(--color-dark-blue);
+    font-weight: 700;
+}
+
+.card .discription {
+    color: var(--color-grayish-blue);
+    font-weight: 400;
 }
