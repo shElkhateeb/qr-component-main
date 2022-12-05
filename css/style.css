@@ -9,10 +9,13 @@
     --color-dark-blue: hsl(218, 44%, 22%);
 }
 
+html {
+    font-size: 15px;
+}
+
 body {
     background-color: var(--color-light-gray);
     font-family: "Outfit", sans-serif;
-    font-size: 15px;
 }
 
 .attribution {
